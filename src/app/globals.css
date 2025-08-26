@@ -9,10 +9,65 @@
   padding: 0;
 }
 
-/* Base */
 html,
 body {
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* 🔑 Design tokens (v4) */
+@theme inline {
+  /* 🎨 Colors */
+  --color-background: #f4f4f4;
+  --color-foreground: #131313;
+  --color-secondary: #df0067;
+  --color-secondary-hover: #b80052;
+  --color-secondary-foreground: #ffffff;
+  --color-black: #000000;
+
+  /* 🔤 Fonts */
+  --font-sans: var(--font-montserrat);
+  --font-times: "Times New Roman", serif;
+
+  /* 🔠 Typography scale */
+  --text-h3: 3.125rem; /* 50px */
+  --leading-h3: 3.125rem; /* 50px */
+  --tracking-h3: -0.125rem; /* -2px */
+  --font-weight-h3: 400; /* Regular */
+
+  --text-h5: 1rem; /* 16px */
+  --leading-h5: 1.5rem; /* 24px */
+  --tracking-h5: 0.1em; /* 10% */
+  --font-weight-h5: 700; /* Bold */
+
+  --text-p1: 1.125rem; /* 18px */
+  --leading-p1: 1.5625rem; /* 25px */
+  --tracking-p1: 0;
+  --font-weight-p1: 400; /* Regular */
+
+  --text-p2: 1rem; /* 16px */
+  --leading-p2: 1.5rem; /* 24px */
+  --tracking-p2: 0;
+  --font-weight-p2: 600; /* SemiBold */
+
+  --text-p3: 0.875rem; /* 14px */
+  --leading-p3: 1.25rem; /* 20px */
+  --tracking-p3: 0;
+  --font-weight-p3: 400; /* Regular */
+
+  --text-p4: 0.875rem; /* 14px */
+  --leading-p4: 1.25rem; /* 20px */
+  --tracking-p4: 0;
+  --font-weight-p4: 600; /* SemiBold */
+
+  --text-label2: 0.875rem; /* 14px */
+  --leading-label2: 1.25rem; /* 20px */
+  --tracking-label2: 0.1em; /* 10% */
+  --font-weight-label2: 600; /* SemiBold */
+
+  --text-button4: 0.875rem; /* 14px */
+  --leading-button4: 1.25rem; /* 20px */
+  --tracking-button4: 0;
+  --font-weight-button4: 400; /* Regular */
 }
